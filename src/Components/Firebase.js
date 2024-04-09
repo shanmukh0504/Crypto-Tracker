@@ -4,13 +4,13 @@ import 'firebase/compat/auth';
 import "firebase/compat/database";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA_c4PMKYbrIAiqIp1Yj0ty3Xye1R8KqC8",
+  apiKey: YOUR_API_KEY,
   authDomain: "crypto-app-a69be.firebaseapp.com",
   projectId: "crypto-app-a69be",
   storageBucket: "crypto-app-a69be.appspot.com",
-  messagingSenderId: "688928942361",
-  appId: "1:688928942361:web:c465ae94a2eb15b508bd88",
-  measurementId: "G-37YEWHX1E7"
+  messagingSenderId: YOUR_SENDER_ID,
+  appId: YOUR_API_ID,
+  measurementId: YOUR_MEASUREMENT_ID
 };
 
 // Initialize Firebase
