@@ -1,4 +1,4 @@
-Website : CryptoExplorer <br/><br/>
+Website : CryptoTracker <br/><br/>
 Developer : Shanmukha Rana Prathap <br/><br/>
 Skills required to build this are: <br/>
 &nbsp; &nbsp; • React JS <br/>
