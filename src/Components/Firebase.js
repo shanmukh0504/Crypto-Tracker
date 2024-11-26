@@ -4,13 +4,13 @@ import 'firebase/compat/auth';
 import "firebase/compat/database";
 
 const firebaseConfig = {
-  apiKey: YOUR_API_KEY,
+  apiKey: process.env.REACT_APP_API_KEY,
   authDomain: "crypto-app-a69be.firebaseapp.com",
   projectId: "crypto-app-a69be",
   storageBucket: "crypto-app-a69be.appspot.com",
-  messagingSenderId: YOUR_SENDER_ID,
-  appId: YOUR_API_ID,
-  measurementId: YOUR_MEASUREMENT_ID
+  messagingSenderId: process.env.REACT_APP_SENDER_ID,
+  appId: process.env.REACT_APP_APPID,
+  measurementId: process.env.REACT_APP_MEASUREMENT_ID
 };
 
 // Initialize Firebase
